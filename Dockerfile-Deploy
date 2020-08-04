@@ -7,7 +7,6 @@ RUN apt update && apt install -y \
 
 RUN git clone https://github.com/jeansimeoni/daitan-university-c-devenv-sample-1.git /tmp/myapp
 WORKDIR /tmp/myapp
-RUN ls
 
 RUN make
 
